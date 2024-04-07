@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background : url(bg.gif) no-repeat;
+    background-size:cover;
+}
+.h3{
+    color: rgb(119, 56, 56);
+}
+.container{
+    margin-bottom: 20px;
+}
+.rag{
+    background-color: gray;
+    color: lightcyan;
+    border: 5px solid gray; 
+            border-radius: 50px; 
+         margin-bottom: 50px;
+         padding: 10px;
+}
+#text{
+    font-size: larger;
+    
+}
+#text1{
+    font-size: xx-large;
+}
+.rag1{
+    color: red;
+    
+}
+.rag2{
+    color: red;
+    
+}
+.rag3{
+    color: red;
+    margin-top: 10px;
+
+}
+.rag4{
+    color: navy;
+    background-color: beige;
+    border: 5px solid gray; 
+            border-radius: 50px; 
+            padding: 5px; 
+
+}
+.custom-col{
+    animation: fadeInUp 1s ease-in-out;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
